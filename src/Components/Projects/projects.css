@@ -78,6 +78,10 @@
         margin-top: 20px;
     }
 
+    .projects-title{
+        font-size: 40px;
+    }
+
     
 .project-grid{
     grid-template-columns: 1fr ;

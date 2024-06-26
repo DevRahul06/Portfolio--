@@ -38,21 +38,21 @@ export default function Hero() {
           </div>
         </div>
       </main>
-      <div id="about">
-        <About />
-      </div>
-      <div id="skills">
+      <section id="about">
+        <About className='about' />
+      </section>
+      <section id="skills">
         <Skills />
-      </div>
-      <div id="projects">
+      </section>
+      <section id="projects">
         <Projects />
-      </div>
-      <div id="contact">
+      </section>
+      <section id="contact">
         <Contact />
-      </div>
-      <footer>
+      </section>
+      {/* <footer> */}
         <Footer/>
-      </footer>
+      {/* </footer> */}
     </div>
   );
 }

@@ -112,6 +112,9 @@
         gap: 10px;
     }
 
+    .skills-title{
+        font-size: 40px;
+    }
 
     .s-card {
         padding: 20px  ;

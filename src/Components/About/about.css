@@ -80,8 +80,11 @@
         /* justify-content: center; */
     }
 
-    .about-title, .about-text{
+    /* .about-title, .about-text{
         width: auto !important;
+    } */
+    .about-title{
+        font-size: 40px;
     }
 
     .about-social{
