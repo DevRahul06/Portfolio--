@@ -6,7 +6,7 @@
     border-top: 2px solid var(--white-color);
     color: var(--first-color);
     width: 100%;
-    height: 50px;
+    height: auto;
     background: var(--body-color);
 }
 .f-title{display: flex;}
@@ -58,8 +58,12 @@
     color: var(--white-color);
 }
 
-@media (max-width: 550px){
-    .f-text,.footer-t{
-        font-size: 20px;
-    }
+@media (max-width: 376px){
+   .f-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+   }
 }
