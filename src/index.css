@@ -107,11 +107,13 @@ textarea {
   background-color: #ffb17d;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   background-color: var(--body-color);
   color:var(--white-color);
-  scroll-behavior: smooth;
 }
 
 .section{

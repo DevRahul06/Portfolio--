@@ -15,7 +15,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 export default function Skills() {
 
   return (
-    <div className="section">
+    <div className="section skill-section">
       <div className="s-title">
         <h1 className="skills-title"> Skills</h1>
       </div>
