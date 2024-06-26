@@ -23,10 +23,10 @@ export default function Hero() {
             responsive web designs. Turning ideas into digital realities.
           </p>
           <div className="btns">
-            <a href="/" className="btn hero-btn">
+            <a href="#contact" className="btn hero-btn">
               Get In Touch
             </a>
-            <a href="/" className="btn hero-btn">
+            <a href="#projects" className="btn hero-btn">
               Browse Projects
             </a>
           </div>

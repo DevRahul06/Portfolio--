@@ -2,6 +2,7 @@ import React from "react";
 import aboutImage from "../../assets/images/about--svg.png";
 import { FaInstagram, FaGithub, FaTwitter  } from "react-icons/fa";
 import "./about.css";
+import CV from '../../assets/pdfs/Rahul_Resume.pdf'
 
 export default function about() {
   return (
@@ -24,13 +25,13 @@ export default function about() {
             to life!
           </p>
           <div className="about-links">
-            <a href="" className="resumebtn btn">
+            <a href={CV} download className="resumebtn btn">
               Resume
             </a>
             <div className="about-social">
-              <div className='about-social-icon social-icon'> <FaInstagram /></div>
-              <div className='about-social-icon social-icon s-color'> <FaGithub /></div>
-              <div className='about-social-icon social-icon'> <FaTwitter /></div>
+              <a href="" className='about-social-icon social-icon'> <FaInstagram /></a>
+              <a href="https://github.com/DevRahul06" target="_blank" className='about-social-icon social-icon s-color'> <FaGithub /></a>
+              <a href="" className='about-social-icon social-icon'> <FaTwitter /></a>
             </div>
           </div>
         </div>

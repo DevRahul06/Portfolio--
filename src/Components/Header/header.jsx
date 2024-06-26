@@ -1,16 +1,9 @@
 import React from 'react'
 import { FaInstagram, FaGithub, FaTwitter  } from "react-icons/fa";
 import './header.css'
-import { RiMenu3Line } from "react-icons/ri";
 
 export default function Navbar() {
 
-  // const [isOpen, setIsClose] = useState(flase)
-
-  // const toggle = () =>{
-  //   isOpen == true ? setIsClose(false) : setIsClose(true);
-  // }
-  
   return (
     <header className='header'>
         <div className='logo'>
@@ -26,12 +19,9 @@ export default function Navbar() {
             </ul>
         </nav>
         <div className="social">
-           <div className='social-icon'> <FaInstagram /></div>
-           <div className='social-icon s-color'> <FaGithub /></div>
-           <div className='social-icon'> <FaTwitter /></div>
-        </div>
-        <div className='menu-icon'>
-            <RiMenu3Line />
+           <a href='' className='social-icon'> <FaInstagram /></a>
+           <a href='https://github.com/DevRahul06' target='_blank' className='social-icon s-color'> <FaGithub /></a>
+           <a className='social-icon'> <FaTwitter /></a>
         </div>
         
     </header>
