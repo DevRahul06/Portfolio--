@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect}from "react";
 import "./skills.css";
 import {
   FaHtml5,
@@ -11,11 +11,16 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiDjango } from "react-icons/si";
 import ProgressBar from "@ramonak/react-progress-bar";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Skills() {
-  
+  useEffect(()=>{
+    AOS.init({
+      duration:5000,
+      easing:'ease-in-out',
+    });
+  })
 
   return (
     <div className="section skill-section">
@@ -24,42 +29,43 @@ export default function Skills() {
       </div>
       <div className="s-section">
         <div className="skills-left">
-          <div className="html s-card">
+
+          <div className="html s-card" data-aos="fade-left">
             <FaHtml5 className="s-icon" />
             <p className="s-name">HTML</p>
           </div>
 
-          <div className="css s-card">
+          <div className="css s-card" data-aos="fade-left">
             <FaCss3Alt className="s-icon" />
             <p className="s-name">CSS</p>
           </div>
 
-          <div className="js s-card">
+          <div className="js s-card" data-aos="fade-left">
             <IoLogoJavascript className="s-icon" />
             <p className="s-name">JavaScript</p>
           </div>
 
-          <div className="react s-card">
+          <div className="react s-card" data-aos="fade-left">
             <FaReact className="react-icon s-icon" />
             <p className="s-name">React</p>
           </div>
 
-          <div className="bootstrap s-card">
+          <div className="bootstrap s-card" data-aos="fade-left">
             <FaBootstrap className="s-icon" />
             <p className="s-name">Bootstrap</p>
           </div>
 
-          <div className="tailwind s-card">
+          <div className="tailwind s-card" data-aos="fade-left">
             <RiTailwindCssFill className="s-icon" />
             <p className="s-name">Tailwind</p>
           </div>
 
-          <div className="python s-card">
+          <div className="python s-card" data-aos="fade-left">
             <FaPython className="s-icon" />
             <p className="s-name">Python</p>
           </div>
 
-          <div className="django s-card">
+          <div className="django s-card" data-aos="fade-left">
             <SiDjango className="s-icon" />
             <p className="s-name">Django</p>
           </div>

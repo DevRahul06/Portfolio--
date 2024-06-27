@@ -7,8 +7,9 @@ import 'aos/dist/aos.css';
 export default function Contact() {
 
   useEffect(()=>{
-    AOS.init({    
-      duration : 5000
+    AOS.init({
+      duration:5000,
+      easing:'ease-in-out',
     })
   },[])
   return (

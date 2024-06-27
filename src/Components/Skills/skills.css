@@ -88,6 +88,7 @@
 /* ***** ****  keyframe ************ */
 .react-icon {
     animation: circle 5s linear infinite;
+    color: var(--first-color);
 }
 
 @keyframes circle {
