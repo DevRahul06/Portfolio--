@@ -7,12 +7,12 @@ import CV from '../../assets/pdfs/Rahul_Resume.pdf'
 export default function about() {
   return (
     <section className="section about-main">
-      <div className="left">
+      <div className="about-left">
         <div className="aboutimg">
           <img src={aboutImage} alt="" className="about-img" />
         </div>
       </div>
-      <div className="right">
+      <div className="about-right">
         <div>
           <h1 className="about-title">About Me</h1>
           <p className="about-text">

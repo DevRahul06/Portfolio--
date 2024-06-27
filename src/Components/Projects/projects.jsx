@@ -25,9 +25,9 @@ export default function Projects() {
               <div className="p-description">
                 <p className="p-desc">{project.description}</p>
               </div>
-              <div className="btns">
-                <a className="btn" href={project.sourceCode}>SourceCode</a>
-                <a className="btn" href={project.livePreview}>LivePreview</a>
+              <div className="btns p-btns">
+                <a className="btn p-btn" href={project.sourceCode}>SourceCode</a>
+                <a className="btn p-btn" href={project.livePreview}>LivePreview</a>
               </div>
             </div>
           );

@@ -58,7 +58,7 @@
     color: var(--white-color);
 }
 
-@media (max-width: 376px){
+@media (max-width: 550px){
    .f-section{
     display: flex;
     flex-direction: column;

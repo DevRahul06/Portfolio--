@@ -97,5 +97,10 @@
     .social{
         display: none;
     }
+
+    .navbar{
+        margin-left: 50px;
+    }
+    
 }
 
