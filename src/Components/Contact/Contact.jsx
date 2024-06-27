@@ -1,18 +1,26 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./contact.css";
 import contact from "../../assets/images/digital-contract.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Contact() {
+
+  useEffect(()=>{
+    AOS.init({    
+      duration : 5000
+    })
+  },[])
   return (
     <React.Fragment>
       <div className="section con">
-        <div className="contact-left">
+        <div className="contact-left" >
           <div className="contactimg">
-            <img src={contact} alt="" className="contact-img" />
+            <img src={contact} data-aos="fade-left" alt="" className="contact-img" />
           </div>
         </div>
         <div className="contact-right">
-          <div className="container">
+          <div className="container" >
             <h1 className="contact-title">Contact Me</h1>
             <p className="contact-text">
               If you have any questions or want to discuss a project, please

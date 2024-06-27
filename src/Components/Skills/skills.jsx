@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./skills.css";
 import {
   FaHtml5,
@@ -11,8 +11,11 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiDjango } from "react-icons/si";
 import ProgressBar from "@ramonak/react-progress-bar";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 export default function Skills() {
+  
 
   return (
     <div className="section skill-section">
@@ -60,6 +63,7 @@ export default function Skills() {
             <SiDjango className="s-icon" />
             <p className="s-name">Django</p>
           </div>
+
         </div>
         <div className="skills-right">
           <div className="html s-line">

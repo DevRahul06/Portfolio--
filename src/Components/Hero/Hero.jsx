@@ -6,8 +6,11 @@ import Skills from "../Skills/skills.jsx";
 import Projects from "../Projects/projects.jsx";
 import Contact from "../Contact/Contact.jsx";
 import Footer from "../Footer/Footer.jsx";
+// import AOS from 'aos';
+// import "aos/dist/aos.css";
 
 export default function Hero() {
+  
   return (
     <div className="all-section">
       <main className="section main">
