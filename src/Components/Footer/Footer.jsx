@@ -13,9 +13,9 @@ export default function Footer() {
         <p className='copy-text'>Copyright &copy; 2024 Dev<span> Rahul </span>.</p>
       </div>
       <div className="footer-social">
-        <a href='' className='footer-social-icon'> <FaInstagram /></a>
-        <a href='https://github.com/DevRahul06'target='_blank' className='footer-social-icon f-color'> <FaGithub /></a>
-        <a href='' className='footer-social-icon'> <FaTwitter /></a>
+        <a href='https://www.instagram.com/devwithrahul/' target='_blank' className='footer-social-icon'> <FaInstagram /></a>
+        <a href='https://github.com/DevRahul06' target='_blank' className='footer-social-icon f-color'> <FaGithub /></a>
+        <a href='https://x.com/devwithrahul'target='_blank' className='footer-social-icon'> <FaTwitter /></a>
       </div>
        
     </footer>

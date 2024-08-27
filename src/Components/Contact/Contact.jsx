@@ -34,8 +34,8 @@ export default function Contact() {
 
   return (
     <React.Fragment>
-      <section class="contact" id="contact">
-        <div class="contact-container">
+      <section className="contact" id="contact">
+        <div className="contact-container">
           <div className="contact-content">
             <h1 className="contact-title">Contact Me</h1>
             <p className="contact-text">
@@ -81,12 +81,12 @@ export default function Contact() {
             </form>
           </div>
 
-          <figure class="contact-banner" data-aos="flip-down">
+          <figure className="contact-banner" data-aos="flip-down">
             <img
               src={contactImage}
               loading="lazy"
               alt="contact-banner"
-              class="w-100 contact-img"
+              className="w-100 contact-img"
             />
           </figure>
         </div>

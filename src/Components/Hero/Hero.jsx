@@ -18,21 +18,21 @@ export default function Hero() {
 
   return (
     <React.Fragment>
-      <section class="hero" id="hero">
-        <div class="container">
+      <section className="hero" id="hero">
+        <div className="container">
           <motion.div
-            class="hero-content"
+            className="hero-content"
             variants={variant}
             initial="hidden"
             animate="visible"
           >
-            <h4 class="hero-subtitle">
+            <h4 className="hero-subtitle">
               Hi, I'm &nbsp; <span className="tc">DevRahul</span>
             </h4>
-            <h2 class="h2 hero-title">
+            <h2 className="h2 hero-title">
               <span className="stc">Front</span>end Developer
             </h2>
-            <p class="hero-text">
+            <p className="hero-text">
               Ahmedabad based Frontend developer creating user-friendly and
               responsive web designs. Turning ideas into digital realities.
             </p>
@@ -47,7 +47,7 @@ export default function Hero() {
             </div>
           </motion.div>
           <motion.figure
-            class="hero-banner"
+            className="hero-banner"
             variants={Imgvariant}
             initial="hidden"
             animate="visible"
@@ -56,7 +56,7 @@ export default function Hero() {
               src={HeroImage}
               loading="lazy"
               alt="hero-banner"
-              class="w-100 hero-img"
+              className="w-100 hero-img"
             />
           </motion.figure>
         </div>

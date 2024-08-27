@@ -60,7 +60,11 @@ export default function Header() {
           <RiCloseLargeLine />
         </button>
         <div className="nav-social">
-          <a href="" className="social-icon">
+          <a
+            href="https://www.instagram.com/devwithrahul"
+            target="_blank"
+            className="social-icon"
+          >
             {" "}
             <FaInstagram />
           </a>
@@ -72,14 +76,22 @@ export default function Header() {
             {" "}
             <FaGithub />
           </a>
-          <a className="social-icon">
+          <a
+            href="https://x.com/devwithrahul"
+            target="_blank"
+            className="social-icon"
+          >
             {" "}
             <FaTwitter />
           </a>
         </div>
       </nav>
       <div className="social">
-        <a href="" className="social-icon">
+        <a
+          href="https://www.instagram.com/devwithrahul"
+          target="_blank"
+          className="social-icon"
+        >
           {" "}
           <FaInstagram />
         </a>
@@ -91,7 +103,11 @@ export default function Header() {
           {" "}
           <FaGithub />
         </a>
-        <a className="social-icon">
+        <a
+          href="https://x.com/devwithrahul"
+          target="_blank"
+          className="social-icon"
+        >
           {" "}
           <FaTwitter />
         </a>
